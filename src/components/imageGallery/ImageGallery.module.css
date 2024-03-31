@@ -1,0 +1,8 @@
+.ImageGallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 180px 180px 180px;
+  /* grid-auto-rows: auto; */
+  grid-gap: 10px;
+
+}
