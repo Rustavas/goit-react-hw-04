@@ -76,7 +76,6 @@ function App() {
       />
       <Toaster position="top-right" />
       {isError && <ErrorMessage />}
-      {query !== "" && !total && !isError && <p>Sorry, nothing was found for your '{query}' request</p>}
       {isLoading && <Loader />}
       {photos && <ImageGallery photos={photos} onImageClick={handleImageClick} />}
       <ImageModal />
