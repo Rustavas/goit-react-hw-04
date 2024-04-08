@@ -78,7 +78,6 @@ function App() {
       {isError && <ErrorMessage />}
       {isLoading && <Loader />}
       {photos && <ImageGallery photos={photos} onImageClick={handleImageClick} />}
-      <ImageModal />
       {photos.length > 0 && photos.length < total && <LoadMoreBtn onClick=
         {onLoadMore}>View more</LoadMoreBtn>}
       <ImageModal
