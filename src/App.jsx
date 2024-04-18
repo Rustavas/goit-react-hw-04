@@ -26,7 +26,7 @@ function App() {
     imageDescription: "",
     imageAuthor: "",
     imageLikes: 0,
-  });
+  })
 
   const handleSubmit = (value) => {
     setPhotos([])
